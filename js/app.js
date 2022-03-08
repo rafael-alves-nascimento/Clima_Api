@@ -17,7 +17,6 @@ const search_button = document.querySelector('.btn');
 const low_high = document.querySelector('.low-high');
 
 
-
 search_button.addEventListener('click', function() {
     searchResults(search_input.value)
 })
