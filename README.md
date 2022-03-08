@@ -17,4 +17,4 @@ apos digitar um nome de um local o arquivo javascript é acionado para mudar a t
 
 ![informacoes](https://user-images.githubusercontent.com/91340095/157301924-4f860c42-a47c-42c7-86bf-7d4cf50a530a.PNG)
 
-https://rafael-alves-nascimento.github.io/clima-api/
+github pages : https://rafael-alves-nascimento.github.io/clima-api/
