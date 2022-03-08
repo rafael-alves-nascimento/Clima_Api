@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card text-center shadow-lg " >
+            <div class="row g-0" >
+            <div class="col -md-4 " style="background-color: #add8e6;" >
+                <div class="city">CIDADE EXEMPLO</div>
+                <div class="date">Domingo , 30 novembro 2020</div>
+                <div class="container-img">
+                    <img src="./icons/unknown.png" alt="">
+                </div>
+                <div class="weather">Nublado</div>
+                <div class="low-high">22ºC / 23ºC</div>
+            </div>
+            <div class="col-md-8" >
+                <div class="card-body">
+                    <h5 class="card-title">Tempo e Temperatura</h5>
+                    <div class="container-temp my-4 mx-3">
+                        <div> 22 </div>
+                        <span>ºC</span>
+                    </div>
+
+                    <div class="input-group ">
+                        <input type="text" class="form-control" placeholder="Digite o nome da cidade" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+                            <i class="fas fa-search"></i>
+                        </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/app.js"></script>
+    <script src="https://kit.fontawesome.com/f0e17cbf2f.js" crossorigin="anonymous"></script>
+</body>
+</html>

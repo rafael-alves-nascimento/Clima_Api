@@ -1,0 +1,80 @@
+body{
+    background: linear-gradient(45deg, #072227,#35858B,#4FBDBA,#AEFEFF);
+    background-size: 400% 400%;
+    animation: colors 15s ease infinite
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.container {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.city {
+    font-size: 32px;
+    color: white;
+}
+
+.date {
+    color: white;
+    font-size: 16px;
+}
+
+.container-temp {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    font-weight: 900;
+    text-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    background-color: #8e86fd;
+    border-radius: 10px;
+    box-shadow: 5px 6px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    padding: 40px;
+}
+.weather {
+    font-size: 32px;
+}
+
+.low-high {
+    font-size: 22px;
+}
+
+.card-body{
+    background-color: #add8e6;
+    color: white;
+}
+
+.card-header {
+    background-color: #add8e6;
+    color: white;
+}
+
+.card-footer {
+    background-color: #add8e6;
+}
+
+#button-addon2 {
+    background-color:#8e86fd;
+}
+
+.card {
+    width: 600px;
+    height: 600;
+}
