@@ -1,5 +1,5 @@
 # clima-api
-<b>Site criado para consumir dados de uma api chamada openweathermap<b> 
+Site criado para consumir dados de uma api chamada openweathermap
 
 Dentro do site há um botao de pesquisa onde o usuário pode digitar o nome do local onde deseja saber a temperatura como no próximo exemplo :
 
